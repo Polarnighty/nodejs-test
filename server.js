@@ -36,7 +36,7 @@ var server = http.createServer(function(request, response){
       '<head><link rel="stylesheet" href="/style.css">' +
       '</head><body>'  +
       '<h1>你好</h1>' +
-      '<script src="/script.html"></script>' +
+      '<script src="/script.js"></script>' +
       '</body></html>')
     response.end()
   }else{
